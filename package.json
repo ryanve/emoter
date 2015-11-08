@@ -1,0 +1,63 @@
+{
+  "name": "emoter",
+  "description": "the event emitter for states",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ryanve/emoter",
+  "license": "MIT",
+  "author": "Ryan Van Etten",
+  "keywords": [
+    "emitter",
+    "emotion",
+    "events",
+    "event",
+    "state",
+    "states",
+    "browser",
+    "server"
+  ],
+  "main": "emoter.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanve/emoter.git"
+  },
+  "dependencies": {
+    "energy": "^0.7.1",
+    "skate": "^0.1.0"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {
+    "aok": "^1.9.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "universal": "^0.1.1"
+  },
+  "jshintConfig": {
+    "asi": true,
+    "boss": true,
+    "browser": true,
+    "debug": true,
+    "devel": true,
+    "eqnull": true,
+    "evil": true,
+    "expr": true,
+    "globals": {
+      "define": true,
+      "ender": true
+    },
+    "jquery": true,
+    "lastsemic": true,
+    "latedef": "nofunc",
+    "laxcomma": true,
+    "maxcomplexity": 15,
+    "maxerr": 10,
+    "maxlen": 115,
+    "maxparams": 4,
+    "node": true,
+    "sub": true,
+    "supernew": true,
+    "trailing": true,
+    "undef": true,
+    "unused": true,
+    "worker": true
+  }
+}
